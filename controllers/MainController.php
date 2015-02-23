@@ -5,7 +5,7 @@ namespace app\controllers;
 use app\models\Users;
 use app\filters\VkAuth;
 
-class MainController extends \yii\web\Controller
+class MainController extends Controller
 {
 	public function behaviors()
 	{
