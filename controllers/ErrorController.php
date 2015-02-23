@@ -8,7 +8,7 @@ class ErrorController extends \yii\web\Controller
 {
     public $layout = "@app/views/layouts/iframe";
     
-    public function actionError()
+    public function actionIndex()
     {
         $exception = Yii::$app->getErrorHandler()->exception;
 
