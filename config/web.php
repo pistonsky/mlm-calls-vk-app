@@ -15,6 +15,7 @@ $config = [
 			'enableStrictParsing' => true,
 			'showScriptName' => false,
 			'rules' => [
+				'main' => 'main',
 				'<controller:\w+>/<action:\w+>' 		=> '<controller>/<action>'
 			],
 		],

@@ -2,8 +2,8 @@
 
 // глобальные константы
 
-define('app_id', '');
-define('app_secret', '');
+define('app_id', '4797736');
+define('app_secret', '59jAGoGZ6VKQpyDQr9rK');
 
 define('RATE_LIMIT_PER_USER_PER_SECOND', 10000);
 
