@@ -1,5 +1,22 @@
-vk app template written on yii2/backbone
-========================================
+MLM Calls Vk App
+================
+
+This app is designed to be used by MLM agents, its main purpose is logging calls and tracking progress of the team.
+
+**Features:**
+
+1. Log how many calls have you made in a day;
+2. See how many calls left to make for today;
+3. See how many calls made your teammate;
+4. Write a little description about every particular call;
+5. Get automated recommendations on who to call depending on the result of previous calls;
+6. See your profit prediction;
+7. Track how many people came to a meeting;
+8. Track how many subscribed;
+9. Compare yourself with your team;
+10. See some call scripts right there;
+
+... and even more!
 
 How to setup
 ============
