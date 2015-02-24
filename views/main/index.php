@@ -16,11 +16,6 @@
 
 	</div> 
 
-<h1>Done!</h1>
-
-<p>If everything went fine, you should see your ID here:</p>
-<pre><?= \Yii::$app->user->identity->user_id ?></pre>
-
 <!-- BEGIN PAGE MARKUP -->     
 	<div class="page" id="page-container">
 		<!-- BEGIN HEADER -->
@@ -28,10 +23,10 @@
 			<!-- logo is in the background css property -->
 			<div class="container">
 
-				<nav>
+				<!-- <nav>
 					<a href="#/dashboard" class="btn btn-link">Меню</a>
 					<a href="#/settings" class="btn btn-link">Настройки</a>
-				</nav>
+				</nav> -->
 
 			</div>
 		</header>
@@ -39,10 +34,8 @@
 		<!-- BEGIN PAGE CONTAINER -->
 		<div class="page-container">
 			<!-- BEGIN CONTAINER -->
-			<div id="container">
-				<div class="loading-container">
-					<h1>Загружается...</h1>
-				</div>
+			<div id="container" class="container">
+				<button class="btn btn-primary btn-lg center col-sm-4 col-sm-offset-4">Я сделал звонок</button>
 			</div>
 			<!-- END CONTAINER -->
 
@@ -50,8 +43,8 @@
 		<!-- END PAGE CONTAINER -->
 		<!-- BEGIN FOOTER -->
 		<footer>
-			<a href="#/about">О компании</a>
-			<a href="#/support">Техническая поддержка</a>
+			<!-- <a href="#/about">О компании</a>
+			<a href="#/support">Техническая поддержка</a> -->
 		</footer>
 		<!-- END FOOTER -->
 	</div>
